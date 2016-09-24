@@ -1,0 +1,164 @@
+#our-products {
+    color:#2e2e32;
+    background-image:url("../images/others/our-products-bg.jpg");
+}
+
+#our-products .overlay-bg {
+    background-color:#e0ded9;
+}
+
+#our-products .section-title h1 {
+    color:#2e2e32;
+}
+
+#our-products .our-product {
+    border:3px solid #2e2e32;
+    padding:35px 15px;
+    margin-bottom:25px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    overflow:hidden;
+    max-height:400px;
+    min-height: 290px;
+}
+
+#our-products .our-product img {
+    display:inline-block;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#our-products .our-product h2 {
+    margin-bottom:3px;
+    font-weight:500;
+    font-size: 25px;
+}
+
+#our-products .our-product:hover img {
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotateY(180deg);
+}
+
+#book {  background: #e0ded9;}
+
+footer {  font-size: 14px;  line-height: 22px;  background: white;  }
+
+#menu-one {  background-image: url('../images/aperitief_banner.jpg');  }
+#menu-two {  background-image: url('../images/champagne_banner.png');  }
+#menu-three {  background-image: url('../images/frisdrank_banner.jpg');  }
+#menu-four { background-image: url('../images/bier_banner.jpg');  }
+#menu-five { background-image: url('../images/sterkedrank_banner.png');  }
+#menu-six {  background-image: url('../images/warmedranken_banner.jpg');  }
+#menu-seven {  background-image: url('../images/ontbijt_banner.jpg');  }
+#menu-eight {  background-image: url('../images/snacks_banner.jpg');  }
+#menu-nine {  background-image: url('../images/vleesgerechten_banner.jpg');  }
+#menu-ten {  background-image: url('../images/visgerechten_banner.jpg');}
+#menu-eleven {background-image: url('../images/dessert_banner.jpg');}
+#menu-twelve {background-image: url('../images/wine_banner.jpg');}
+
+
+#nav{z-index: 999; margin-bottom: 90px;}
+.header_logo_mobile{display: none;}
+.menu-text{margin-bottom: 40px;}
+.video_titel {font-family: 'nexa_rust_script_l0regular', sans-serif}
+.vespa_blok{float:right; margin-bottom: 45px;}
+.index_menu_text{font-size: 20px;margin-bottom: 40px;}
+.navbar-default .navbar-brand img {width: 100%; height:auto;}
+
+.vespa_img:hover{background-image: url("/vespa2.jpg")}
+.img_page{max-height: 170px;}
+.img_vespa_index{margin-top: 20px; margin-bottom: 35px; max-width: 100%;}
+
+
+.section-contact {font-family: 'novecento_sans_wide_bookbold', sans-serif;font-size: 25px;font-style: normal;margin-bottom: 35px;position: relative;}
+.section-contact span {font-family: 'nexa_rust_extrasfree', sans-serif;font-size: 50px;color: #ff6c00;font-weight: normal;}
+section {padding: 15px 0;}
+.section-heading {font-family: 'novecento_sans_wide_bookbold', sans-serif;color: #2e2e32;font-size: 45px;margin-top: 10px;margin-bottom: 15px;}
+.section-subheading {font-family: 'nexa_rust_script_l0regular', sans-serif;font-size: 32px;color: #2e2e32;text-transform: none;font-style: italic;font-weight: 400;margin-bottom: 80px;}
+
+.menu{height: auto;}
+.module{margin-top: 30px;}
+
+p {font-family: 'Old Standard TT', serif;font-size: 15px;line-height: 1.75; }
+
+.wijn-module h3{
+    color: #ff6c00;
+}
+
+.wijn-module hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #eee;
+}
+
+.wijn-small-heading { display: none;}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active:hover,
+.navbar-default .navbar-nav > .active:focus {
+    color: #ff6c00 !important;
+    background: none !important;
+}
+
+#fancybox-title { margin-left: 0 !important;}
+
+.section-divider {
+    display: block;
+    font-family: 'nexa_rust_extrasfree', sans-serif;
+    font-size: 50px;
+    color: #ff6c00;
+    margin: 35px 0;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .header_logo_mobile {
+        width: 40%;
+        height: auto;
+        display: -webkit-inline-box;
+    }
+    .navbar-default .navbar-brand img {
+        display: none;
+    }
+    .section-subheading {
+        font-family: 'nexa_rust_script_l0regular', sans-serif;
+        font-size: 25px;
+        color: #2e2e32;
+        text-transform: none;
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 80px;
+    }
+    h1, .h1 {
+        font-size: 30px;
+    }
+    .index_header {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .wijn-large-heading { display: none;}
+    .wijn-small-heading { display: block; width: 40%; float: left; padding-left: 10px;}
+
+}
+
+@media screen and (max-width: 480px) {
+    .header_logo_mobile {
+        width: 50%;
+        height: auto;
+        display: -webkit-inline-box;
+    }
+}
